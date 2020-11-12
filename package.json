@@ -1,0 +1,24 @@
+{
+  "name": "first-node-webpage",
+  "version": "1.0.0",
+  "description": "Ejemplo de pagina Web",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "exxpress": "^1.0.0",
+    "morgan": "^1.10.0",
+    "node-onvif": "^0.1.7",
+    "node-rtsp-stream": "0.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
